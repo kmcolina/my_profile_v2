@@ -1,0 +1,169 @@
+@import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body{
+    color: #575F7D;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+  background-image: url(images/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
+}
+
+#img-perfil{
+  border-radius: 50%;
+}
+
+#container{
+  margin: 40px auto;
+  width: 800px;
+}
+
+#intro a {
+  border-radius: 6px;
+  background-color: #2a862a ;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+#intro p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-white{
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0 10px;
+
+}
+
+h1{
+  color:rgb(4, 156, 106);
+
+}
+h2{
+  color: #3abd58;
+}
+h2 i{
+   color:rgb(4, 156, 106)
+}
+
+p{
+  font-size: 17px;
+  color: rgba(0,0,0,0.8);
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+}
+
+div{
+  display: block;
+}
+
+
+#intro a:hover {
+  background-color: rgb(4, 156, 106);
+  color: white;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 0.95em;
+  left: 0.96em;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, rgb(17, 141, 37), rgba(17, 141, 38, 0.87));
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(3);
+  -ms-transform: scale(3);
+  -webkit-transform: scale(3);
+  color: rgb(17, 141, 37);
+
+
+  transition: all 265ms ease-in;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+    margin: 10px 5px 0;
+}
+
+p strong {
+  color: rgb(4, 156, 106);
+}
